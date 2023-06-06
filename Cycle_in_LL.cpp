@@ -1,3 +1,8 @@
+#include <bits/stdc++.h>
+
+using namespace std ;
+#define bye    return 0
+
 
 
         class Node
