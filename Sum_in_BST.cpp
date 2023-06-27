@@ -2,7 +2,7 @@
 using namespace std;
 
 
-    Following is the Binary Tree Node structure:
+   
 
     template <typename T>
     class BinaryTreeNode {
