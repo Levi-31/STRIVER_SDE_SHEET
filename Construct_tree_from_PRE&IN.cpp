@@ -15,9 +15,9 @@ using namespace std;
         }
     };
 
-*
 
-TreeNode<int>* solve(vector<int>&preorder ,vector<int>&inorder,int start, int end, int &idx){
+
+TreeNode<int> * solve(vector<int>&preorder ,vector<int>&inorder,int start, int end, int &idx){
     if(start>end) return NULL;
 
     int rootVal=preorder[idx];
