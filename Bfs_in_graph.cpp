@@ -1,5 +1,6 @@
 #include <bits/stdc++.h> 
 using namespace std;
+
 vector<int> BFS(int vertex, vector<pair<int, int>> edges)
 {
     int n = vertex;
@@ -18,7 +19,7 @@ vector<int> BFS(int vertex, vector<pair<int, int>> edges)
         sort(adj[i].begin(), adj[i].end());
     }
 
-    int vis[n]={0};
+    int vis[n];
     vis[0] = 1;
     
     queue<int> q;
