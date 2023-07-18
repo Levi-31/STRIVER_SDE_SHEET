@@ -2,17 +2,17 @@
 
 using namespace std ;
 
- * class Node {
- * public:
- *     int data;
- *     Node *next;
- *     Node() : data(0), next(nullptr) {}
- *     Node(int x) : data(x), next(nullptr) {}
- *     Node(int x, Node *next) : data(x), next(next) {}
- * };
+  class Node {
+  public:
+     int data;
+     Node *next;
+   Node() : data(0), next(nullptr) {}
+    Node(int x) : data(x), next(nullptr) {}
+     Node(int x, Node *next) : data(x), next(next) {}
+  };
  
 
-Node *rotate(Node *head, int k) {
+Node *rotate(Node *head , int k) {
    if(head == NULL or head->next == NULL or k==0) return head;
  
        Node* temp1=head;
